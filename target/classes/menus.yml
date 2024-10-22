@@ -1,0 +1,51 @@
+Cookie:
+  menu_title: '&8Cookie Clicker'
+  size: 45
+  #----------------------
+  #       Menu
+  #----------------------
+  items:
+    1:
+      material: COOKIE
+      slot: 22
+      display_name: '&aClick Me :)'
+      lore: []
+      actions:
+        - 'SOUND ENTITY_EXPERIENCE_ORB_PICKUP'
+        - 'COOKIE'
+    2:
+      material: OAK_SIGN
+      slot: 40
+      display_name: '&a&lEvent Info'
+      lore:
+        - '&7You are basically have to click'
+        - '&7the &fCookie &7to score!'
+        - '&7The player who click the most'
+        - '&7Wins the event hand gets the lots of &a&l$$$'
+        - ' '
+        - '&a&lSession Leaderboard'
+        - '&e&l1. &7%cookieclicker_top1_name% with &f%cookieclicker_top1_points%'
+        - '&e&l2. &7%cookieclicker_top2_name% with &f%cookieclicker_top2_points%'
+        - '&e&l3. &7%cookieclicker_top3_name% with &f%cookieclicker_top3_points%'
+        - ' '
+        - '&eClick to refresh!'
+      actions:
+        - 'CLOSE'
+        - 'MENU Cookie'
+    'glass1':
+      material: BLACK_STAINED_GLASS_PANE
+      slots:
+        - 0
+        - 1
+        - 7
+        - 8
+        - 9
+        - 17
+        - 27
+        - 35
+        - 36
+        - 37
+        - 43
+        - 44
+      display_name: "&r "
+      lore: []
